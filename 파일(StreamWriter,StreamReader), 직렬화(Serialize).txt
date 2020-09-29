@@ -1,0 +1,17 @@
+파일(StreamWriter,StreamReader), 직렬화(Serialize) 
+
+
+
+
+
+
+StreamWriter : string ---------> WriteLine() 
+	       스트림라이터는 저장경로, 어펜드 여부, 인코딩 만 설정가능하고 
+	       더 세부적으로 하고싶을때 저장경로 파라미터 부분에 
+
+
+직렬화 : 객체 -----직렬화----> 저장
+           객체 <----역직렬화-- 저장(Binary, XML, Json)
+Binary : 닷넷끼리 만가능 이기종간 불가능 대신 작고 빠르다
+XML : 이기종간 가능
+Json : API나 네트워크 같이 누가 쓸지 모를때는 Json이 좋음
